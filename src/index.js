@@ -9,4 +9,8 @@ var array = [].concat.apply([], matrix);
             }
         }
     }
+
+    matrix=array;
+    
 }
+
