@@ -1,11 +1,11 @@
 module.exports = function towelSort (matrix) {
-matrix.flat();
-    for (let j=0; j<matrix.length; j++){
-        for (let i=0; i<matrix.length - 1; i++){
-            if (matrix[i] > matrix[i+1]) {
-                const buff = matrix[i]
-                matrix[i] = matrix[i+1]
-                matrix[i+1] = buff
+var array = matrix.flat();
+    for (let j=0; j<array.length; j++){
+        for (let i=0; i<array.length - 1; i++){
+            if (array[i] > array[i+1]) {
+                const buff = array[i]
+                array[i] = array[i+1]
+                array[i+1] = buff
             }
         }
     }
