@@ -9,4 +9,5 @@ var array = matrix.flat();
             }
         }
     }
+    matrix = array;
 }
